@@ -1,0 +1,190 @@
+#{
+    margin:0;
+    padding:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    width:100%;
+    min-height:100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image:url(https://shop.floretflowers.com/cdn/shop/files/Floret-originals-shop-home-banner_1440x590_e3d7ba7c-c815-4298-b186-58958fab1e91_1300x.jpg?v=1704488900);
+    background-size:cover;
+    background-position:center;
+}
+.top .overlay{
+    position:relative;
+    width:100%;
+    min-height:inherit;
+    background-color: rgba(0, 0, 0, 0.284);
+
+}
+.text{
+    display:text;
+    justify-content:space-between;
+    align-items:center;
+    position:absolute;
+    width:100%;
+    padding:0 10vh;
+    color:white;
+    bottom:5%;
+}
+    .text h1{
+    font-weight: 600;
+    font-size: 4vw;
+
+}
+.text .Image{
+   background-image: url(https://bouqs.com/blog/wp-content/uploads/2023/06/Untitled-design-1-1080x608.jpg); 
+   background-size:cover;
+   background-position:center;
+   height:300px;
+   width:220px;
+
+}
+.rtext{
+    display: flex;
+    width:25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display:flex;
+    width:100%;
+    min-height: 40vh;
+}
+.b1{
+    width:30%;
+    min-height: inherit;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/best-fall-flowers-a-wide-array-of-colorful-fall-flowers-laid-on-a-pale-yellow-background-6696ad99837e4.jpg?crop=1xw:0.84375xh;center,top);
+    background-size:cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color:white;
+    text-align: center;
+    padding:15px;
+}
+.b2{
+    width:30%;
+    min-height: inherit;
+    display:flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width:100%;
+    min-height:20vh;
+    background-image: url(https://img.freepik.com/premium-photo/colorful-flowers-arranged-table_118124-148233.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+} 
+
+.b2 .up p{
+    color:white;
+    text-align: center;
+    padding:15%;
+}
+.b2 .down{
+    width:100%;
+    min-height: 20vh;
+    background-image: url(https://www.blacktulipflowers.com/wp-content/uploads/2022/11/fragrance_rose_petals-jpg.webp);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color:white ;
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    min-height: inherit;
+    background-image: url(https://www.shutterstock.com/image-photo/small-magnifying-glass-on-orange-260nw-2019675308.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+.b3 .overlay{
+    justify-content: right;
+    position:relative;
+    margin-left:50%;
+    width:50%;
+    height: 100%;
+    padding: 4vw 3vh;
+
+}
+.b3 .overlay p{
+    padding:1.2vh;
+}
+@media(max-width:700px){
+.rtext{
+    flex-direction: column;
+
+}
+.b3 .overlay{
+    width: 100%;
+    margin-left: initial;
+}
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin-top:10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items:flex-start;
+
+    }
+    .b1{
+        width: 100%;
+        min-height: 30vh;
+        
+    }
+
+    .b2{
+        width: 100%;
+        
+    }
+    .b2 .up{
+        min-height:30vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 20vh;
+        background-position:left ;
+        
+    }
+}
+
+
